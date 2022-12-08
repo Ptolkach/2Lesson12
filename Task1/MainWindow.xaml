@@ -13,7 +13,7 @@
                     <ControlTemplate TargetType="CheckBox">
                         <StackPanel>
                             <Grid>
-                                <Rectangle Width="20" Height="20" Stroke="DarkGray" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="5" ></Rectangle>
+                                <Rectangle Width="20" Height="20" Stroke="DarkGray" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="3" RadiusY="3" StrokeThickness="2" ></Rectangle>
                                 <Path x:Name="path_x" Opacity="0" VerticalAlignment="Center" HorizontalAlignment="Center" Stroke="DarkGray" StrokeThickness="4" >
                                     <Path.Data>
                                         <PathGeometry>
